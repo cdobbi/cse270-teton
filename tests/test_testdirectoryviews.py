@@ -22,7 +22,7 @@ class TestTestdirectoryviews():
     self.driver.quit()
   
   def test_testdirectoryviews(self):
-    self.driver.get("http://127.0.0.1:58211/teton/1.6/")
+    self.driver.get("http://127.0.0.1:5500/teton/1.6/")
     self.driver.set_window_size(1270, 990)
     self.driver.find_element(By.LINK_TEXT, "Directory").click()
     self.driver.find_element(By.ID, "directory-grid").click()
